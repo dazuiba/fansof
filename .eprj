@@ -2714,7 +2714,7 @@
             <key>user.r</key>
             <string>..\inkerweb\app\models\user.rb</string>
             <key>user.rb</key>
-            <string>..\inkerweb\app\models\user.rb</string>
+            <string>app\models\user.rb</string>
             <key>user.y</key>
             <string>..\webapp\test\fixtures\users.yml</string>
             <key>user_mon</key>
