@@ -2,7 +2,7 @@ class TopicsController < ApplicationController
   before_filter :find_forum_and_topic, :except => :index
   before_filter :login_required, :only => [:new, :create, :edit, :update, :destroy]
 
-  caches_formatted_page :rss, :show
+  # caches_formatted_page :rss, :show
   cache_sweeper :posts_sweeper, :only => [:create, :update, :destroy]
 
   def index

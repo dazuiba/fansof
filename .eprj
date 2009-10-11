@@ -2581,6 +2581,8 @@
             <string>..\inkerweb\app\views\application\_top_menu.html.erb</string>
             <key>top_up</key>
             <string>..\inkerweb\app\views\agent\top_up.html.erb</string>
+            <key>topcon</key>
+            <string>app\controllers\topics_controller.rb</string>
             <key>topic.rb</key>
             <string>..\inkerweb\app\models\topic.rb</string>
             <key>total_price</key>
