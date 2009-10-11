@@ -5,21 +5,16 @@ RAILS_GEM_VERSION = '2.3.3' unless defined? RAILS_GEM_VERSION
 
 # Bootstrap the Rails environment, frameworks, and default configuration
 require File.join(File.dirname(__FILE__), 'boot')
- require 'desert'
-
-
 Rails::Initializer.run do |config|
-  config.plugins = [:community_engine, :white_list, :all]
-config.plugin_paths += ["#{RAILS_ROOT}/vendor/plugins/community_engine/plugins"]
-
-  config.gem 'icalendar'
-  config.gem 'calendar_date_select'
-  config.gem 'aws-s3', :lib => 'aws/s3'
-  config.gem 'haml', :lib => 'htmlentities'
-  config.gem 'htmlentities', :lib => 'htmlentities'
-  config.gem 'hpricot', :lib => 'hpricot'
-  config.gem 'rmagick', :lib => 'RMagick'
-  config.gem 'desert', :lib => 'desert'
+  config.gem 'RedCloth'
+  # config.gem 'icalendar'
+  # config.gem 'calendar_date_select'
+  # config.gem 'aws-s3', :lib => 'aws/s3'
+  # config.gem 'haml', :lib => 'htmlentities'
+  # config.gem 'htmlentities', :lib => 'htmlentities'
+  # config.gem 'hpricot', :lib => 'hpricot'
+  # config.gem 'rmagick', :lib => 'RMagick'
+  # config.gem 'desert', :lib => 'desert'
   # Settings in config/environments/* take precedence over those specified here.
   # Application configuration should go into files in config/initializers
   # -- all .rb files in that directory are automatically loaded.
@@ -46,10 +41,9 @@ config.plugin_paths += ["#{RAILS_ROOT}/vendor/plugins/community_engine/plugins"]
 
   # Set Time.zone default to the specified zone and make Active Record auto-convert to this zone.
   # Run "rake -D time" for a list of tasks for finding time zone names.
-  config.time_zone = 'UTC'
+  config.time_zone = 'Beijing'
 
   # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
   # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}')]
   # config.i18n.default_locale = :de
 end
- require "#{RAILS_ROOT}/vendor/plugins/community_engine/config/boot.rb"
