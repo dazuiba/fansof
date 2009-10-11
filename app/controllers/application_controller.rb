@@ -1,10 +1,30 @@
-# Filters added to this controller apply to all controllers in the application.
-# Likewise, all the methods added will be available for all controllers.
-
 class ApplicationController < ActionController::Base
-  helper :all # include all helpers, all the time
-  protect_from_forgery # See ActionController::RequestForgeryProtection for details
+  init_gettext "beast" if Object.const_defined?(:GetText)
 
-  # Scrub sensitive parameters from your log
-  # filter_parameter_logging :password
+  #include ExceptionLoggable
+  include BrowserFilters, AuthenticationSystem
+  session :session_key => '_beast_session_id'
+
+  helper_method :current_user, :logged_in?, :admin?, :last_active
+  before_filter :login_by_token
+  around_filter :set_context
+
+  protected
+    def set_context
+      ActiveRecord::Base.with_context do
+        yield
+      end
+    end
+
+    def last_active
+      session[:last_active] ||= Time.now.utc
+    end
+    
+    def rescue_action(exception)
+      exception.is_a?(ActiveRecord::RecordInvalid) ? render_invalid_record(exception.record) : super
+    end
+
+    def render_invalid_record(record)
+      render :action => (record.new_record? ? 'new' : 'edit')
+    end
 end
