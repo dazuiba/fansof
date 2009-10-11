@@ -1,0 +1,46 @@
+<h1><%= 'Login'[:login_title] %></h1>
+
+<% form_tag session_path do -%>
+<div id="password_fields"<%= %( style="display:none") unless cookies['use_open_id'].blank? %>>
+<p>
+  <label for="login"><%= 'Login'[:Login] %> or <%= link_to_function "login with OpenID", "LoginForm.setToOpenID()" %></label>
+  <br />
+  <%= text_field_tag :login, params[:login] %>
+</p>
+
+  <%= hidden_field_tag :to, params[:to] if params[:to] %>
+
+<p>
+  <label for="password"><%= 'Password'[:password_title] %></label><br />
+  <%= password_field_tag :password %>
+</p>
+</div>
+
+<div id="openid_fields"<%= %( style="display:none") if cookies['use_open_id'].blank? %>>
+<p>
+  <label for="openid_url"><%= 'OpenID'[:open_id_directions] %>
+  or <%= link_to_function "login with your password", "LoginForm.setToPassword()" %></label>
+  <br />
+  <%= text_field_tag :openid_url, params[:openid_url] %>
+</p>
+</div>
+
+<p><label><%= check_box_tag "remember_me", "1", true %> <%= 'Remember me on this computer'[:remember_me] %></label></p>
+
+
+<p><%= submit_tag 'Login'[:login_action], :or => link_to_function('reset password'[], "$('reset-password').toggle();") %></p>
+<% end -%>
+
+<% form_tag users_path, :id => 'reset-password', :style => 'display:none' do -%>
+
+<hr />
+
+<h5><%= 'Reset Password'[] %></h5>
+
+  <p><%= 'Enter your email, and a brand new login key will be sent to you.  Click the link in the email to log in, and then change your password.'[:email_directions] %></p>
+  <p><%= text_field_tag :email, "", :size => 30 %>
+<br />
+<%= submit_tag 'E-mail me the link'[:email_submit], :or => link_to_function('cancel'[], "$('reset-password').hide()") %></p>
+<% end -%>
+
+<%= javascript_tag "$('login').focus();"%>
