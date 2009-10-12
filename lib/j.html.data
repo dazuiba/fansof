@@ -1,0 +1,564 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>南方周末</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="keywords" content="南方周末报 南方周末网站 南方周末官方网站 南方周末电子版 论坛 社区 在线阅读 新闻线索 读者" />
+  <meta name="description" content="www.infzm.com，南方周末新闻社区" />
+  <link rel="stylesheet" type="text/css" href="http://images.infzm.com/css/2009/header.css" />
+  <link rel="stylesheet" type="text/css" href="http://images.infzm.com/css/2009/footer.css" />
+  <link rel="stylesheet" type="text/css" href="http://images.infzm.com/css/2009/enews_style.css" />
+sdf
+  <script type="text/javascript" src="http://www.infzm.com/js/mootools-min.js"></script>
+  <script type="text/javascript" src="http://www.infzm.com/2008/js/header.js"></script>
+  <script type="text/javascript" src="http://passport.infzm.com/passport/ssologinform/raw?container=userPanel&style=top"></script>
+  </head>
+<body>
+	  <div id="header">
+<div id="userPanel" class="noUserIcon"></div><!--用户状态栏-->
+<div id="left">
+	<a href="http://www.infzm.com" id="siteLogo" title="南方周末网站 www.infzm.com"></a>
+
+	<div id="header-media">
+	 <!--top-->
+	 <p>&nbsp;</p>
+<p><a href="http://www.infzm.com/enews/infzm"><img src="http://images.infzm.com/medias/2009/0930/30820.png" alt="" /><br />
+</a></p>	 <!--end top -->
+	</div>
+</div>
+<div id="right">
+<h3>南方周末报系旗下媒体</h3>
+<a href="http://www.infzm.com/25years.shtml" target="_blank"><div class="nfzm-toplogo"></div></a>
+<a href="http://mangazine.infzm.com" target="_blank"><div class="mangazine-toplogo"></div></a>
+
+<a href="http://www.infzm.com/enews/nfrwzk" target="_blank"><div class="nfrw-toplogo"></div></a>
+</div>
+	<div class="clear"></div>
+	<div id="NavSearchBar">
+		<div id="main-nav"><ul>
+			<li id="home-nav" class="action"><a href="http://www.infzm.com">首页</a></li>
+			<li id="blog-nav" class=""><a href="http://www.infzm.com/z.shtml">专栏</a></li>
+<!--			<li id="digg-nav" class=""><a href="http://p.infzm.com">网摘</a></li>-->
+			<li id="group-nav" class=""><a href="http://group.infzm.com">南周大院 <font style="color:#c00;font-size:14px">New</font></a></li>
+
+			<li id="tag-nav" class=""><a href="http://tags.infzm.com">标签</a></li>
+			<li id="bbs" class=""><a href="http://bbs.infzm.com">论坛</a></li>      
+			<li id="vote-nav" class=""><a href="http://www.infzm.com/vote.shtml">民调中心</a></li>
+			<li id="voice"><a href="http://www.infzm.com/voice">囧囧有声</a></li>
+		</ul></div>
+		<div id="search">
+			<span class="tt">搜索</span>
+
+    	<form method="get" action="http://www.infzm.com/search.php" target="_top" id="SearchForm">
+    		<input type="hidden" name="domains" value="infzm.com"></input>
+    		<input type="hidden" name="sitesearch" value="infzm.com"></input>
+    		<input type="hidden" name="client" value="pub-9592521274658723"></input>
+    		<input type="hidden" name="forid" value="1"></input>
+    		<input type="hidden" name="ie" value="utf-8"></input>
+    		<input type="hidden" name="oe" value="utf-8"></input>
+    		<input type="hidden" name="cof" value="GALT:#2D8930;GL:1;DIV:#FFFFFF;VLC:CC0000;AH:center;BGC:FFFFFF;LBGC:FFFFFF;ALC:0066CC;LC:0066CC;T:808080;GFNT:99C9FF;GIMP:99C9FF;LH:40;LW:100;L:http://www.infzm.com/images/infzm_logo_0708.gif;S:http://www.infzm.com;LP:1;FORID:11"></input>
+    		<input type="hidden" name="hl" value="zh-CN"></input>
+
+			<span class="input"><input type="text" name="q" value="" /></span>
+			<span class="submit"><input type="image" src="http://www.infzm.com/2008/images/search-submit.png" /></span>
+		  </form>
+		</div>
+	</div>
+<div id="main-sub-nav">
+	<ul id="home-nav-sub">
+		<li><a href="http://www.infzm.com/news.shtml" class="">新闻</a></li>
+		<li><a href="http://www.infzm.com/economy.shtml" class="">经济</a></li>
+
+		<li><a href="http://www.infzm.com/culture.shtml" class="">文化</a></li>
+		<li><a href="http://www.infzm.com/review.shtml" class="">评论</a></li>
+		<li><a href="http://www.infzm.com/fashion.shtml" class="">生活</a></li>
+		<li><a href="http://www.infzm.com/image.shtml" class="">图片</a></li>
+	</ul>
+	<script type="text/javascript">
+
+var bulletin_alternater = {
+  target : "postboard",
+  height : 16,
+  total : 4,
+  current : 0,
+  interval : 5000,
+  enabled : true,
+  effect : null,
+  start : function() {
+    this.effect = new Fx.Scroll( this.target );
+    bulletin_alternater.run.periodical( this.interval, bulletin_alternater );
+  },
+  run : function () {
+    if ( this.enabled == false ) return;
+
+    if ( this.current > this.total )
+      this.current = 0;
+
+    this.effect.scrollTo( 0, this.current * this.height );
+
+    this.current ++;
+  },
+  enable : function () {
+    bulletin_alternater.enabled = true;
+  },
+  disable : function () {
+    bulletin_alternater.enabled = false;
+  }
+};
+
+window.addEvent("domready",function(){
+  $("postboard").addEvent("mouseenter",bulletin_alternater.disable);
+  $("postboard").addEvent("mouseleave",bulletin_alternater.enable);
+  bulletin_alternater.start();
+});
+</script>
+
+<div id="postboard" >
+  <ul>
+        <li><a href="http://www.infzm.com/contents/434">南周公告</a>&gt;&gt;&nbsp;<a class="bulletin" href="http://www.infzm.com/content/35680">gphone版南周阅读器发布，欢迎大...</a></li>
+        <li><a href="http://www.infzm.com/contents/434">南周公告</a>&gt;&gt;&nbsp;<a class="bulletin" href="http://www.infzm.com/content/34319">欢迎试用MSN订阅《南方周末》</a></li>
+        <li><a href="http://www.infzm.com/contents/434">南周公告</a>&gt;&gt;&nbsp;<a class="bulletin" href="http://www.infzm.com/content/34286">《南方周末》经济部招收实习生</a></li>
+        <li><a href="http://www.infzm.com/contents/434">南周公告</a>&gt;&gt;&nbsp;<a class="bulletin" href="http://www.infzm.com/content/33934">南方周末网实习生招聘</a></li>
+
+        <li><a href="http://www.infzm.com/contents/434">南周公告</a>&gt;&gt;&nbsp;<a class="bulletin" href="http://www.infzm.com/content/33338">南方周末官方微博客大公开</a></li>
+      </ul>
+</div>
+</div>
+</div>  <div id="wrap">
+  <!--CONTENT BEGIN-->
+  ?<!--主体-->
+  <div id="contents">
+
+  	<div id="enews_header">
+  		<h1>
+  			<span>电子报刊&gt;&gt;</span>南方周末  		</h1>
+  	</div>
+  	<div class="inner col-2lb" id="enews_index">
+
+  		<div class="side-1">
+                      <div class="cover">
+
+  				<img width="180" src="http://images.infzm.com/medias/2009/0930/30819.jpeg"/>
+
+  					<p>2009年10月8日</p>
+  			 		<p>第1338期</p>
+  				<strong>
+  					<span class="f14">往期</span>
+  					<select onchange="if(this.value !='') location=this.value">
+  					<option>选择日期</option>
+
+  						<option value="http://www.infzm.com/enews/infzm/1321">20091001</option>
+  						<option value="http://www.infzm.com/enews/infzm/1309">2009-09-24</option>
+  						<option value="http://www.infzm.com/enews/infzm/1300">2009-09-17</option>
+  						<option value="http://www.infzm.com/enews/infzm/1286">2009-09-10</option>
+  						<option value="http://www.infzm.com/enews/infzm/1271">2009-09-03</option>
+  						<option value="http://www.infzm.com/enews/infzm/1261">2009-08-27</option>
+
+  						<option value="http://www.infzm.com/enews/infzm/1250">2009-08-20</option>
+  						<option value="http://www.infzm.com/enews/infzm/1243">2009-08-13</option>
+  						<option value="http://www.infzm.com/enews/infzm/1227">2009-08-06</option>
+  						<option value="http://www.infzm.com/enews/infzm/1218">2009-07-30</option>
+  						<option value="http://www.infzm.com/enews/infzm/1208">2009-07-23</option>
+  						<option value="http://www.infzm.com/enews/infzm/1195">2009-07-16</option>
+
+  						<option value="http://www.infzm.com/enews/infzm/1186">2009-07-09</option>
+  						<option value="http://www.infzm.com/enews/infzm/1179">2009-07-02</option>
+  						<option value="http://www.infzm.com/enews/infzm/1170">2009-06-25</option>
+  						<option value="http://www.infzm.com/enews/infzm/1160">2009-06-18</option>
+  						<option value="http://www.infzm.com/enews/infzm/1152">2009-06-11</option>
+  						<option value="http://www.infzm.com/enews/infzm/1143">2009-06-04</option>
+
+  						<option value="http://www.infzm.com/enews/infzm/1134">2009-05-28</option>
+  						<option value="http://www.infzm.com/enews/infzm/1125">2009-05-21</option>
+  						<option value="http://www.infzm.com/enews/infzm/1117">2009-05-14</option>
+  						<option value="http://www.infzm.com/enews/infzm/1107">2009-05-07</option>
+  						<option value="http://www.infzm.com/enews/infzm/1098">2009-04-30</option>
+  						<option value="http://www.infzm.com/enews/infzm/1088">2009-04-23</option>
+
+  						<option value="http://www.infzm.com/enews/infzm/1080">2009-04-16</option>
+  						<option value="http://www.infzm.com/enews/infzm/1071">2009-04-09</option>
+  						<option value="http://www.infzm.com/enews/infzm/1060">2009-04-02</option>
+  						<option value="http://www.infzm.com/enews/infzm/1048">2009-03-26</option>
+  						<option value="http://www.infzm.com/enews/infzm/1037">2009-03-19</option>
+  						<option value="http://www.infzm.com/enews/infzm/1027">2009-03-12</option>
+
+  						<option value="http://www.infzm.com/enews/infzm/1018">2009-03-05</option>
+  						<option value="http://www.infzm.com/enews/infzm/999">2009-02-26</option>
+  						<option value="http://www.infzm.com/enews/infzm/989">2009-02-19</option>
+  						<option value="http://www.infzm.com/enews/infzm/977">2009-02-12</option>
+  						<option value="http://www.infzm.com/enews/infzm/968">2009-02-05</option>
+  						<option value="http://www.infzm.com/enews/infzm/955">2009-01-22</option>
+
+  						<option value="http://www.infzm.com/enews/infzm/937">2009-01-15</option>
+  						<option value="http://www.infzm.com/enews/infzm/928">2009-01-08</option>
+  						<option value="http://www.infzm.com/enews/infzm/908">2009-01-01</option>
+  						<option value="http://www.infzm.com/enews/infzm/896">2008-12-25</option>
+  						<option value="http://www.infzm.com/enews/infzm/888">2008-12-18</option>
+  						<option value="http://www.infzm.com/enews/infzm/877">2008-12-11</option>
+
+  						<option value="http://www.infzm.com/enews/infzm/867">2008-12-04</option>
+  						<option value="http://www.infzm.com/enews/infzm/850">2008-11-27</option>
+  						<option value="http://www.infzm.com/enews/infzm/838">2008-11-20</option>
+  						<option value="http://www.infzm.com/enews/infzm/836">2008-11-13</option>
+  						<option value="http://www.infzm.com/enews/infzm/829">2008-11-06</option>
+  						<option value="http://www.infzm.com/enews/infzm/794">2008-10-30</option>
+
+  						<option value="http://www.infzm.com/enews/infzm/786">2008-10-23</option>
+  						<option value="http://www.infzm.com/enews/infzm/777">2008-10-16</option>
+  						<option value="http://www.infzm.com/enews/infzm/768">2008-10-09</option>
+  						<option value="http://www.infzm.com/enews/infzm/760">2008-10-02</option>
+  						<option value="http://www.infzm.com/enews/infzm/742">2008-09-25</option>
+  						<option value="http://www.infzm.com/enews/infzm/731">2008-09-18</option>
+
+  						<option value="http://www.infzm.com/enews/infzm/721">2008-09-11</option>
+  						<option value="http://www.infzm.com/enews/infzm/713">2008-09-04</option>
+  						<option value="http://www.infzm.com/enews/infzm/705">2008-08-28</option>
+  						<option value="http://www.infzm.com/enews/infzm/694">2008-08-21</option>
+  						<option value="http://www.infzm.com/enews/infzm/677">2008-08-14</option>
+  						<option value="http://www.infzm.com/enews/infzm/665">2008-08-07</option>
+
+  						<option value="http://www.infzm.com/enews/infzm/640">2008-07-31</option>
+  						<option value="http://www.infzm.com/enews/infzm/633">2008-07-24</option>
+  						<option value="http://www.infzm.com/enews/infzm/625">2008-07-17</option>
+  						<option value="http://www.infzm.com/enews/infzm/618">2008-07-10</option>
+  						<option value="http://www.infzm.com/enews/infzm/595">2008-07-03</option>
+  						<option value="http://www.infzm.com/enews/infzm/584">2008-06-26</option>
+
+  						<option value="http://www.infzm.com/enews/infzm/575">2008-06-19</option>
+  						<option value="http://www.infzm.com/enews/infzm/558">2008-06-12</option>
+  						<option value="http://www.infzm.com/enews/infzm/546">2008-06-05</option>
+  						<option value="http://www.infzm.com/enews/infzm/530">2008-05-29</option>
+  						<option value="http://www.infzm.com/enews/infzm/524">2008-05-22</option>
+  						<option value="http://www.infzm.com/enews/infzm/501">2008-05-15</option>
+
+  						<option value="http://www.infzm.com/enews/infzm/509">2008-05-14</option>
+  						<option value="http://www.infzm.com/enews/infzm/490">2008-05-08</option>
+  						<option value="http://www.infzm.com/enews/infzm/218">2008-05-01</option>
+  						<option value="http://www.infzm.com/enews/infzm/201">2008-04-24</option>
+  						<option value="http://www.infzm.com/enews/infzm/37">2008-04-17</option>
+  						<option value="http://www.infzm.com/enews/infzm/20">2008-04-10</option>
+
+  						<option value="http://www.infzm.com/enews/infzm/177">2008-04-03</option>
+  						<option value="http://www.infzm.com/enews/infzm/84">2008-03-27</option>
+  						<option value="http://www.infzm.com/enews/infzm/129">2008-03-20</option>
+  						<option value="http://www.infzm.com/enews/infzm/190">2008-03-13</option>
+  						<option value="http://www.infzm.com/enews/infzm/66">2008-03-06</option>
+  						<option value="http://www.infzm.com/enews/infzm/39">2008-02-28</option>
+
+  						<option value="http://www.infzm.com/enews/infzm/166">2008-02-21</option>
+  						<option value="http://www.infzm.com/enews/infzm/48">2008-02-14</option>
+  						<option value="http://www.infzm.com/enews/infzm/55">2008-02-07</option>
+  						<option value="http://www.infzm.com/enews/infzm/155">2008-01-31</option>
+  						<option value="http://www.infzm.com/enews/infzm/171">2008-01-24</option>
+  						<option value="http://www.infzm.com/enews/infzm/198">2008-01-17</option>
+
+  						<option value="http://www.infzm.com/enews/infzm/17">2008-01-10</option>
+  						<option value="http://www.infzm.com/enews/infzm/149">2008-01-03</option>
+  						<option value="http://www.infzm.com/enews/infzm/143">2007-12-27</option>
+  						<option value="http://www.infzm.com/enews/infzm/73">2007-12-20</option>
+  						<option value="http://www.infzm.com/enews/infzm/195">2007-12-13</option>
+  						<option value="http://www.infzm.com/enews/infzm/137">2007-12-06</option>
+
+  						<option value="http://www.infzm.com/enews/infzm/210">2007-11-29</option>
+  						<option value="http://www.infzm.com/enews/infzm/80">2007-11-22</option>
+  						<option value="http://www.infzm.com/enews/infzm/106">2007-11-15</option>
+  						<option value="http://www.infzm.com/enews/infzm/110">2007-11-08</option>
+  						<option value="http://www.infzm.com/enews/infzm/113">2007-11-01</option>
+  						<option value="http://www.infzm.com/enews/infzm/100">2007-10-25</option>
+
+  						<option value="http://www.infzm.com/enews/infzm/134">2007-10-18</option>
+  						<option value="http://www.infzm.com/enews/infzm/56">2007-10-11</option>
+  						<option value="http://www.infzm.com/enews/infzm/35">2007-10-04</option>
+  						<option value="http://www.infzm.com/enews/infzm/207">2007-09-27</option>
+  						<option value="http://www.infzm.com/enews/infzm/60">2007-09-20</option>
+  						<option value="http://www.infzm.com/enews/infzm/204">2007-09-13</option>
+
+  						<option value="http://www.infzm.com/enews/infzm/31">2007-09-06</option>
+  						<option value="http://www.infzm.com/enews/infzm/192">2007-08-30</option>
+  						<option value="http://www.infzm.com/enews/infzm/213">2007-08-23</option>
+  						<option value="http://www.infzm.com/enews/infzm/168">2007-08-16</option>
+  						<option value="http://www.infzm.com/enews/infzm/132">2007-08-09</option>
+  						<option value="http://www.infzm.com/enews/infzm/63">2007-08-02</option>
+
+  						<option value="http://www.infzm.com/enews/infzm/186">2007-07-26</option>
+  						<option value="http://www.infzm.com/enews/infzm/188">2007-07-19</option>
+  						<option value="http://www.infzm.com/enews/infzm/146">2007-07-12</option>
+  						<option value="http://www.infzm.com/enews/infzm/97">2007-07-05</option>
+  						<option value="http://www.infzm.com/enews/infzm/164">2007-06-28</option>
+  						<option value="http://www.infzm.com/enews/infzm/182">2007-06-21</option>
+
+  						<option value="http://www.infzm.com/enews/infzm/95">2007-06-14</option>
+  						<option value="http://www.infzm.com/enews/infzm/76">2007-06-07</option>
+  						<option value="http://www.infzm.com/enews/infzm/179">2007-05-31</option>
+  						<option value="http://www.infzm.com/enews/infzm/159">2007-05-24</option>
+  						<option value="http://www.infzm.com/enews/infzm/90">2007-05-17</option>
+  						<option value="http://www.infzm.com/enews/infzm/24">2007-05-10</option>
+
+  						<option value="http://www.infzm.com/enews/infzm/127">2007-05-03</option>
+  						<option value="http://www.infzm.com/enews/infzm/93">2007-04-26</option>
+  						<option value="http://www.infzm.com/enews/infzm/70">2007-04-19</option>
+  						<option value="http://www.infzm.com/enews/infzm/103">2007-04-12</option>
+  						<option value="http://www.infzm.com/enews/infzm/141">2007-04-05</option>
+  						<option value="http://www.infzm.com/enews/infzm/122">2007-03-29</option>
+
+  						<option value="http://www.infzm.com/enews/infzm/139">2007-03-22</option>
+  						<option value="http://www.infzm.com/enews/infzm/28">2007-03-15</option>
+  						<option value="http://www.infzm.com/enews/infzm/152">2007-03-08</option>
+  						<option value="http://www.infzm.com/enews/infzm/115">2007-03-01</option>
+  						<option value="http://www.infzm.com/enews/infzm/86">2007-02-22</option>
+  						<option value="http://www.infzm.com/enews/infzm/161">2007-02-15</option>
+
+  						<option value="http://www.infzm.com/enews/infzm/108">2007-02-08</option>
+  						<option value="http://www.infzm.com/enews/infzm/124">2007-02-01</option>
+  						<option value="http://www.infzm.com/enews/infzm/174">2007-01-25</option>
+  						<option value="http://www.infzm.com/enews/infzm/52">2007-01-18</option>
+  						<option value="http://www.infzm.com/enews/infzm/43">2007-01-11</option>
+  						<option value="http://www.infzm.com/enews/infzm/119">2007-01-04</option>
+
+  					</select>
+  				</strong>
+  			</div>
+				<ul id="otherEnews">
+					<li><a href="http://www.infzm.com/enews/magazine">名牌杂志</a></li>
+					<li><a href="http://www.infzm.com/enews/nfrwzk">南方人物周刊</a></li>
+				</ul>
+				<p style="margin-left: 10px;"><a href="http://bbs.infzm.com/trade.php?tid=21727&amp;pid=182496">　</a></p><!--google广告--><div class="google_adv">
+
+<span><script type='text/javascript'><!--// <![CDATA[
+/* openads=http://x.infzm.com/www/delivery bannerid=14 zoneid=33 source= */
+// ]]> --></script><script type="text/javascript"><!--
+google_ad_client = "pub-9592521274658723";
+/* 160x600, 电子报-南方周末-目录 */
+google_ad_slot = "6253066670";
+google_ad_width = 160;
+google_ad_height = 600;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script><script type='text/javascript' src='http://x.infzm.com/www/delivery/ag.php'></script></span><div id='beacon_1d789c0820' style='position: absolute; left: 0px; top: 0px; visibility: hidden;'><img src='http://x.infzm.com/www/delivery/lg.php?bannerid=14&amp;campaignid=13&amp;zoneid=33&amp;loc=1&amp;referer=http%3A%2F%2Fwww.infzm.com%2Fenews%2Finfzm&amp;cb=1d789c0820' width='0' height='0' alt='' style='width: 0px; height: 0px;' /></div></div><!--google广告END-->
+				
+  		</div>
+  		<div class="side-2">
+  			<dl class="topnews">
+  				<dt><span>本期头条:</span><a href="http://www.infzm.com/content/35679" title="果敢余生">果敢余生</a>
+  					</dt>
+
+  				<dd class="summary">缅北军事冲突后华人生存状态观察：中国是他们惟一的希望</dd>
+  			</dl>
+
+  			<div class="left">
+  				<h2>经济</h2>
+  				<dl>
+					<dt></dt>
+  					<dd>
+
+  						<ul class="relnews">
+  							<li><a href="http://www.infzm.com/content/35661" title="福建上杭县：铅中毒恐慌之后">福建上杭县：铅中毒恐慌之后</a></li>
+  							<li><a href="http://www.infzm.com/content/35635" title="住房是中国人最大的家庭财富">住房是中国人最大的家庭财富</a></li>
+  							<li><a href="http://www.infzm.com/content/35636" title="跨越中国制造，我们该向日本取什么经?——专访日本战略之父、管理学家大前研一">跨越中国制造，我们该向日本取什么经?——专访日本...</a></li>
+  							<li><a href="http://www.infzm.com/content/35637" title="品牌，在缝隙中渐进——海尔的海外故事">品牌，在缝隙中渐进——海尔的海外故事</a></li>
+  							<li><a href="http://www.infzm.com/content/35638" title="中国矿产资源产权与价格制度的60年变迁">中国矿产资源产权与价格制度的60年变迁</a></li>
+
+  							<li><a href="http://www.infzm.com/content/35639" title="富豪们来自何处——中俄匈三国富豪榜之比较">富豪们来自何处——中俄匈三国富豪榜之比较</a></li>
+  						</ul>
+  					</dd>
+					</dl>
+  				<h2>评论</h2>
+  				<dl>
+					<dt></dt>
+  					<dd>
+
+  						<ul class="relnews">
+  							<li><a href="http://www.infzm.com/content/35662" title="【文化解码】网瘾是不是一种瘾">【文化解码】网瘾是不是一种瘾</a></li>
+  							<li><a href="http://www.infzm.com/content/35663" title="提示“温馨”在哪里">提示“温馨”在哪里</a></li>
+  							<li><a href="http://www.infzm.com/content/35664" title="【思想游牧】你得利润，我来埋单">【思想游牧】你得利润，我来埋单</a></li>
+  							<li><a href="http://www.infzm.com/content/35666" title="【放言四海】呼唤绿色GDP">【放言四海】呼唤绿色GDP</a></li>
+  							<li><a href="http://www.infzm.com/content/35667" title="【公民巡视】台湾“大家长”旧底子还在">【公民巡视】台湾“大家长”旧底子还在</a></li>
+
+  							<li><a href="http://www.infzm.com/content/35668" title="【社会把脉】不可思议的中国人（之一）">【社会把脉】不可思议的中国人（之一）</a></li>
+  						</ul>
+  					</dd>
+					</dl>
+  				<h2>新闻</h2>
+  				<dl>
+					<dt></dt>
+  					<dd>
+
+  						<ul class="relnews">
+  							<li><a href="http://www.infzm.com/content/35665" title="【温故知新】什么鸟都有的树林才大">【温故知新】什么鸟都有的树林才大</a></li>
+  							<li><a href="http://www.infzm.com/content/35669" title="【写真】阅兵·尖端利器露峥嵘">【写真】阅兵·尖端利器露峥嵘</a></li>
+  							<li><a href="http://www.infzm.com/content/35673" title="交警拖车收费：地方立法与国家立法打起了架">交警拖车收费：地方立法与国家立法打起了架</a></li>
+  							<li><a href="http://www.infzm.com/content/35674" title="中国军事立法大提速">中国军事立法大提速</a></li>
+  							<li><a href="http://www.infzm.com/content/35675" title="“让张剑案成为指导性案例”">“让张剑案成为指导性案例”</a></li>
+
+  							<li><a href="http://www.infzm.com/content/35676" title="人体试验，中国法律如何面对">人体试验，中国法律如何面对</a></li>
+  							<li><a href="http://www.infzm.com/content/35677" title="被拆迁者捅死拆迁者 被判缓刑重获自由">被拆迁者捅死拆迁者 被判缓刑重获自由</a></li>
+  							<li><a href="http://www.infzm.com/content/35678" title="有错即改（091008）">有错即改（091008）</a></li>
+  						</ul>
+  					</dd>
+					</dl>
+  			</div>
+
+  			<div class="right">
+    				<h2>时局</h2>
+  				<dl>
+					<dt></dt>
+  					<dd>
+  						<ul class="relnews">
+  							<li><a href="http://www.infzm.com/content/35670" title="府院新闻（091008）">府院新闻（091008）</a></li>
+  							<li><a href="http://www.infzm.com/content/35671" title="五星红旗是怎样在白宫前升起的？">五星红旗是怎样在白宫前升起的？</a></li>
+
+  							<li><a href="http://www.infzm.com/content/35672" title="美国医改观察：谁的改革？改谁？">美国医改观察：谁的改革？改谁？</a></li>
+  						</ul>
+  					</dd>
+					</dl>
+  				<h2>绿色</h2>
+  				<dl>
+					<dt></dt>
+  					<dd>
+
+  						<ul class="relnews">
+  							<li><a href="http://www.infzm.com/content/35640" title="日本绿鉴">日本绿鉴</a></li>
+  							<li><a href="http://www.infzm.com/content/35641" title="环保NGO的中国生命史">环保NGO的中国生命史</a></li>
+  							<li><a href="http://www.infzm.com/content/35642" title="欧洲五国外交部长联合声明">欧洲五国外交部长联合声明</a></li>
+  							<li><a href="http://www.infzm.com/content/35643" title="生态书记">生态书记</a></li>
+  							<li><a href="http://www.infzm.com/content/35644" title="醒来，向着绿色前进">醒来，向着绿色前进</a></li>
+
+  							<li><a href="http://www.infzm.com/content/35645" title="【开版词】为绿而生">【开版词】为绿而生</a></li>
+  						</ul>
+  					</dd>
+					</dl>
+  				<h2>文化</h2>
+  				<dl>
+					<dt></dt>
+  					<dd>
+
+  						<ul class="relnews">
+  							<li><a href="http://www.infzm.com/content/35681" title="领袖万岁国家万岁还有人民万岁">领袖万岁国家万岁还有人民万岁</a></li>
+  							<li><a href="http://www.infzm.com/content/35682" title="“它不是一个晚会概念，而是一个共同欢乐的品牌”——专访国庆60周年联欢晚会执行总导演甲丁">“它不是一个晚会概念，而是一个共同欢乐的品牌”—...</a></li>
+  							<li><a href="http://www.infzm.com/content/35683" title="人与动物的智力鸿沟">人与动物的智力鸿沟</a></li>
+  							<li><a href="http://www.infzm.com/content/35684" title="改革开放第一定律：自由定律——读田纪云《改革开放的伟大实践》之一">改革开放第一定律：自由定律——读田纪云《改革开放...</a></li>
+  							<li><a href="http://www.infzm.com/content/35685" title="改革开放第二定律：得道者多助——读田纪云《改革开放的伟大实践》之二">改革开放第二定律：得道者多助——读田纪云《改革开...</a></li>
+
+  							<li><a href="http://www.infzm.com/content/35686" title="改革开放第三定律：收放定律——读田纪云《改革开放的伟大实践》之三">改革开放第三定律：收放定律——读田纪云《改革开放...</a></li>
+  							<li><a href="http://www.infzm.com/content/35687" title="《解放战争》作者王树增：“没有什么比电报更真实的了”">《解放战争》作者王树增：“没有什么比电报更真实的...</a></li>
+  							<li><a href="http://www.infzm.com/content/35688" title="都说自己没虚构电视剧《解放》编剧王朝柱：“这样的情节我哪敢编啊？”">都说自己没虚构电视剧《解放》编剧王朝柱：“这样的...</a></li>
+  							<li><a href="http://www.infzm.com/content/35689" title="蔡国强：这是美丽的祖国，就够了">蔡国强：这是美丽的祖国，就够了</a></li>
+  						</ul>
+  					</dd>
+					</dl>
+
+  			</div>
+
+  		</div><!--end .side-1-->
+  	</div><!--end .inner .col-2lb-->
+</div><!--end #body-->
+  <!--CONTENT END-->
+    <div class="clear"></div>
+  </div>
+  <div class="clear"></div>
+     <!--底部-->
+
+	<div id="footer">
+		<h3><a id="backTop" href="#">返回顶部</a>南方周末官方网站----www.infzm.com</h3>
+		<div id="footerNav" class="inner">
+			<div class="side-1">
+				<dl class="navList">
+					<dt><span class="a">服务</span></dt>
+					<dd><a href="http://group.infzm.com">南周大院</a></dd>
+
+					<dd><a href="http://www.infzm.com/z.shtml">专栏</a></dd>
+					<dd><a href="http://bbs.infzm.com">论坛</a></dd>
+					<dd><a href="http://bbs.infzm.com/forumdisplay.php?fid=38">商品</a></dd>
+					<dd class="noBor"><a href="">电子报刊</a></dd>
+				</dl>
+				<dl class="navList">
+					<dt><span class="b">资讯</span></dt>
+
+					<dd><a href="http://www.infzm.com/news.shtml">新闻</a></dd>
+					<dd><a href="http://www.infzm.com/economy.shtml">经济</a></dd>
+					<dd><a href="http://www.infzm.com/culture.shtml">文化</a></dd>
+					<dd><a href="http://www.infzm.com/review.shtml">评论</a></dd>
+					<dd><a href="http://www.infzm.com/picture.shtml">图片</a></dd>
+					<dd class="noBor"><a href="http://www.infzm.com/fashion.shtml">生活</a></dd>
+
+				</dl>
+				<dl class="navList red">
+					<dd class="first"><a href="http://www.infzm.com/rss/home/rss2.0.xml">RSS订阅</a></dd>
+					<dd><a href="">手机报</a></dd>
+					<dd class="noBor"><a href="">广告</a></dd>
+				</dl>
+			</div>
+
+			<div class="side-2">
+				<dl class="navList">
+					<dt><span class="c"><a href="http://www.infzm.com/aboutus"  target="_blank">关于我们</a></span></dt>
+					<dd><a href="http://www.infzm.com/">infzm.com</a></dd>
+					<dd><a href="http://www.infzm.com/content/24164"  target="_blank">南方周末</a></dd>
+					<dd><a href="http://mangazine.infzm.com/"  target="_blank">名牌杂志</a></dd>
+					<dd class="noBor"><a href="http://www.infzm.com/nfrwzk/"  target="_blank">南方人物周刊</a></dd>
+
+				</dl>
+				<dl class="navList">
+					<dt><span class="d"><a href="http://www.infzm.com/event/">品牌活动</a></span></dt>
+					<dd><a href="http://csr.infzm.com">南周公益</a></dd>
+					<dd><a href="http://www.infzm.com/rich/">创富·500强</a></dd>
+					<dd class="noBor"><a href="http://www.infzm.com/topic/partnership.shtml">合作伙伴</a></dd>
+				</dl>
+
+				<dl class="navList blue">
+				<dd class="first"><a href="http://www.infzm.com/topic/jobs.shtml" target="_blank">加入我们</a></dd>
+				<dd class="first"><a href="http://z.infzm.com" target="_blank">官方博客</a></dd>
+					<dd class="first"><a href="">站点地图</a></dd>
+					<dd><a href="http://www.infzm.com/aboutus/200803/t20080317_40300.htm" target="_blank">用户守则</a></dd>
+					<dd class="noBor"><a href="">版权声明</a></dd>
+
+				</dl>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<div class="inner Otherinfo">
+			<dl>
+				<dt>南方报业传媒集团主办:</dt>
+				<dd><a href="http://www.nfdaily.cn/" target="_blank">南方日报</a></dd>
+
+				<dd><a href="http://www.nanfangdaily.com.cn/southnews/dd/nc/" target="_blank">南方农村报</a></dd>
+				<dd><a href="http://www.infzm.com">南方周末</a></dd>
+				<dd><a href="http://www.nddaily.com/" target="_blank">南方都市报</a></dd>
+				<dd><a href="http://www.21cbh.com/" target="_blank">21世纪经济报道</a></dd>
+				<dd><a href="http://www.thebeijingnews.com/" target="_blank">新京报</a></dd>
+				<dd><a href="http://www.xjrb.net" target="_blank">西江日报</a></dd>
+
+				<dd><a href="http://www.ynxxb.com/" target="_blank">云南信息报</a></dd>		
+				<dd><a href="http://www.nbweekly.com/" target="_blank">南都周刊</a></dd>
+				<dd><a href="http://www.fengshangweekly.com/" target="_blank">风尚周报</a></dd>
+				<dd><a href="http://moneyweek.dooland.com/" target="_blank">理财周报</a></dd>
+				<dd><a href="http://www.nfyk.com/" target="_blank">南方</a></dd>				
+				<dd class="secondline"><a href="http://www.nanfangdaily.com.cn/hb/20090428/" target="_blank">城市画报</a></dd>
+				<dd><a href="http://mangazine.infzm.com/" target="_blank">名牌</a></dd>
+
+				<dd><a href="http://www.infzm.com/nfrwzk/" target="_blank">南方人物周刊</a></dd>
+				<dd><a href="http://www.21cbr.com/" target="_blank">21世纪商业评论</a></dd>
+				<dd><a href="" target="_blank">商务旅行</a></dd>
+				<dd><a href="http://www.southcn.com/" target="_blank">南方网</a></dd>
+				<dd><a href="http://www.nanfangdaily.com.cn/" target="_blank">南方报业网</a></dd>
+			</dl>
+
+			<p><a href="http://www.southcn.com/">广东南方网络信息科技有限公司</a>负责制作维护 | 新闻信息服务许可证 ICP经营许可证号：粤B2-20050235号</p>
+		</div>
+<div id="analytic">
+		      <!--by google analytic-->
+					      <script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+								      </script>
+											      <script type="text/javascript">
+														      _uacct = "UA-2915863-1";
+																	      urchinTracker();
+																				      </script>
+</div>	</div><!--end #footer-->
+
+</div>
+</body>
+</html>
+</body>
+</html>

@@ -1,0 +1,168 @@
+<select onchange="if(this.value !='') location=this.value">
+  						<option value="http://www.infzm.com/enews/infzm/1321">20091001</option>
+  						<option value="http://www.infzm.com/enews/infzm/1309">2009-09-24</option>
+  						<option value="http://www.infzm.com/enews/infzm/1300">2009-09-17</option>
+  						<option value="http://www.infzm.com/enews/infzm/1286">2009-09-10</option>
+  						<option value="http://www.infzm.com/enews/infzm/1271">2009-09-03</option>
+  						<option value="http://www.infzm.com/enews/infzm/1261">2009-08-27</option>
+
+  						<option value="http://www.infzm.com/enews/infzm/1250">2009-08-20</option>
+  						<option value="http://www.infzm.com/enews/infzm/1243">2009-08-13</option>
+  						<option value="http://www.infzm.com/enews/infzm/1227">2009-08-06</option>
+  						<option value="http://www.infzm.com/enews/infzm/1218">2009-07-30</option>
+  						<option value="http://www.infzm.com/enews/infzm/1208">2009-07-23</option>
+  						<option value="http://www.infzm.com/enews/infzm/1195">2009-07-16</option>
+
+  						<option value="http://www.infzm.com/enews/infzm/1186">2009-07-09</option>
+  						<option value="http://www.infzm.com/enews/infzm/1179">2009-07-02</option>
+  						<option value="http://www.infzm.com/enews/infzm/1170">2009-06-25</option>
+  						<option value="http://www.infzm.com/enews/infzm/1160">2009-06-18</option>
+  						<option value="http://www.infzm.com/enews/infzm/1152">2009-06-11</option>
+  						<option value="http://www.infzm.com/enews/infzm/1143">2009-06-04</option>
+
+  						<option value="http://www.infzm.com/enews/infzm/1134">2009-05-28</option>
+  						<option value="http://www.infzm.com/enews/infzm/1125">2009-05-21</option>
+  						<option value="http://www.infzm.com/enews/infzm/1117">2009-05-14</option>
+  						<option value="http://www.infzm.com/enews/infzm/1107">2009-05-07</option>
+  						<option value="http://www.infzm.com/enews/infzm/1098">2009-04-30</option>
+  						<option value="http://www.infzm.com/enews/infzm/1088">2009-04-23</option>
+
+  						<option value="http://www.infzm.com/enews/infzm/1080">2009-04-16</option>
+  						<option value="http://www.infzm.com/enews/infzm/1071">2009-04-09</option>
+  						<option value="http://www.infzm.com/enews/infzm/1060">2009-04-02</option>
+  						<option value="http://www.infzm.com/enews/infzm/1048">2009-03-26</option>
+  						<option value="http://www.infzm.com/enews/infzm/1037">2009-03-19</option>
+  						<option value="http://www.infzm.com/enews/infzm/1027">2009-03-12</option>
+
+  						<option value="http://www.infzm.com/enews/infzm/1018">2009-03-05</option>
+  						<option value="http://www.infzm.com/enews/infzm/999">2009-02-26</option>
+  						<option value="http://www.infzm.com/enews/infzm/989">2009-02-19</option>
+  						<option value="http://www.infzm.com/enews/infzm/977">2009-02-12</option>
+  						<option value="http://www.infzm.com/enews/infzm/968">2009-02-05</option>
+  						<option value="http://www.infzm.com/enews/infzm/955">2009-01-22</option>
+
+  						<option value="http://www.infzm.com/enews/infzm/937">2009-01-15</option>
+  						<option value="http://www.infzm.com/enews/infzm/928">2009-01-08</option>
+  						<option value="http://www.infzm.com/enews/infzm/908">2009-01-01</option>
+  						<option value="http://www.infzm.com/enews/infzm/896">2008-12-25</option>
+  						<option value="http://www.infzm.com/enews/infzm/888">2008-12-18</option>
+  						<option value="http://www.infzm.com/enews/infzm/877">2008-12-11</option>
+
+  						<option value="http://www.infzm.com/enews/infzm/867">2008-12-04</option>
+  						<option value="http://www.infzm.com/enews/infzm/850">2008-11-27</option>
+  						<option value="http://www.infzm.com/enews/infzm/838">2008-11-20</option>
+  						<option value="http://www.infzm.com/enews/infzm/836">2008-11-13</option>
+  						<option value="http://www.infzm.com/enews/infzm/829">2008-11-06</option>
+  						<option value="http://www.infzm.com/enews/infzm/794">2008-10-30</option>
+
+  						<option value="http://www.infzm.com/enews/infzm/786">2008-10-23</option>
+  						<option value="http://www.infzm.com/enews/infzm/777">2008-10-16</option>
+  						<option value="http://www.infzm.com/enews/infzm/768">2008-10-09</option>
+  						<option value="http://www.infzm.com/enews/infzm/760">2008-10-02</option>
+  						<option value="http://www.infzm.com/enews/infzm/742">2008-09-25</option>
+  						<option value="http://www.infzm.com/enews/infzm/731">2008-09-18</option>
+
+  						<option value="http://www.infzm.com/enews/infzm/721">2008-09-11</option>
+  						<option value="http://www.infzm.com/enews/infzm/713">2008-09-04</option>
+  						<option value="http://www.infzm.com/enews/infzm/705">2008-08-28</option>
+  						<option value="http://www.infzm.com/enews/infzm/694">2008-08-21</option>
+  						<option value="http://www.infzm.com/enews/infzm/677">2008-08-14</option>
+  						<option value="http://www.infzm.com/enews/infzm/665">2008-08-07</option>
+
+  						<option value="http://www.infzm.com/enews/infzm/640">2008-07-31</option>
+  						<option value="http://www.infzm.com/enews/infzm/633">2008-07-24</option>
+  						<option value="http://www.infzm.com/enews/infzm/625">2008-07-17</option>
+  						<option value="http://www.infzm.com/enews/infzm/618">2008-07-10</option>
+  						<option value="http://www.infzm.com/enews/infzm/595">2008-07-03</option>
+  						<option value="http://www.infzm.com/enews/infzm/584">2008-06-26</option>
+
+  						<option value="http://www.infzm.com/enews/infzm/575">2008-06-19</option>
+  						<option value="http://www.infzm.com/enews/infzm/558">2008-06-12</option>
+  						<option value="http://www.infzm.com/enews/infzm/546">2008-06-05</option>
+  						<option value="http://www.infzm.com/enews/infzm/530">2008-05-29</option>
+  						<option value="http://www.infzm.com/enews/infzm/524">2008-05-22</option>
+  						<option value="http://www.infzm.com/enews/infzm/501">2008-05-15</option>
+
+  						<option value="http://www.infzm.com/enews/infzm/509">2008-05-14</option>
+  						<option value="http://www.infzm.com/enews/infzm/490">2008-05-08</option>
+  						<option value="http://www.infzm.com/enews/infzm/218">2008-05-01</option>
+  						<option value="http://www.infzm.com/enews/infzm/201">2008-04-24</option>
+  						<option value="http://www.infzm.com/enews/infzm/37">2008-04-17</option>
+  						<option value="http://www.infzm.com/enews/infzm/20">2008-04-10</option>
+
+  						<option value="http://www.infzm.com/enews/infzm/177">2008-04-03</option>
+  						<option value="http://www.infzm.com/enews/infzm/84">2008-03-27</option>
+  						<option value="http://www.infzm.com/enews/infzm/129">2008-03-20</option>
+  						<option value="http://www.infzm.com/enews/infzm/190">2008-03-13</option>
+  						<option value="http://www.infzm.com/enews/infzm/66">2008-03-06</option>
+  						<option value="http://www.infzm.com/enews/infzm/39">2008-02-28</option>
+
+  						<option value="http://www.infzm.com/enews/infzm/166">2008-02-21</option>
+  						<option value="http://www.infzm.com/enews/infzm/48">2008-02-14</option>
+  						<option value="http://www.infzm.com/enews/infzm/55">2008-02-07</option>
+  						<option value="http://www.infzm.com/enews/infzm/155">2008-01-31</option>
+  						<option value="http://www.infzm.com/enews/infzm/171">2008-01-24</option>
+  						<option value="http://www.infzm.com/enews/infzm/198">2008-01-17</option>
+
+  						<option value="http://www.infzm.com/enews/infzm/17">2008-01-10</option>
+  						<option value="http://www.infzm.com/enews/infzm/149">2008-01-03</option>
+  						<option value="http://www.infzm.com/enews/infzm/143">2007-12-27</option>
+  						<option value="http://www.infzm.com/enews/infzm/73">2007-12-20</option>
+  						<option value="http://www.infzm.com/enews/infzm/195">2007-12-13</option>
+  						<option value="http://www.infzm.com/enews/infzm/137">2007-12-06</option>
+
+  						<option value="http://www.infzm.com/enews/infzm/210">2007-11-29</option>
+  						<option value="http://www.infzm.com/enews/infzm/80">2007-11-22</option>
+  						<option value="http://www.infzm.com/enews/infzm/106">2007-11-15</option>
+  						<option value="http://www.infzm.com/enews/infzm/110">2007-11-08</option>
+  						<option value="http://www.infzm.com/enews/infzm/113">2007-11-01</option>
+  						<option value="http://www.infzm.com/enews/infzm/100">2007-10-25</option>
+
+  						<option value="http://www.infzm.com/enews/infzm/134">2007-10-18</option>
+  						<option value="http://www.infzm.com/enews/infzm/56">2007-10-11</option>
+  						<option value="http://www.infzm.com/enews/infzm/35">2007-10-04</option>
+  						<option value="http://www.infzm.com/enews/infzm/207">2007-09-27</option>
+  						<option value="http://www.infzm.com/enews/infzm/60">2007-09-20</option>
+  						<option value="http://www.infzm.com/enews/infzm/204">2007-09-13</option>
+
+  						<option value="http://www.infzm.com/enews/infzm/31">2007-09-06</option>
+  						<option value="http://www.infzm.com/enews/infzm/192">2007-08-30</option>
+  						<option value="http://www.infzm.com/enews/infzm/213">2007-08-23</option>
+  						<option value="http://www.infzm.com/enews/infzm/168">2007-08-16</option>
+  						<option value="http://www.infzm.com/enews/infzm/132">2007-08-09</option>
+  						<option value="http://www.infzm.com/enews/infzm/63">2007-08-02</option>
+
+  						<option value="http://www.infzm.com/enews/infzm/186">2007-07-26</option>
+  						<option value="http://www.infzm.com/enews/infzm/188">2007-07-19</option>
+  						<option value="http://www.infzm.com/enews/infzm/146">2007-07-12</option>
+  						<option value="http://www.infzm.com/enews/infzm/97">2007-07-05</option>
+  						<option value="http://www.infzm.com/enews/infzm/164">2007-06-28</option>
+  						<option value="http://www.infzm.com/enews/infzm/182">2007-06-21</option>
+
+  						<option value="http://www.infzm.com/enews/infzm/95">2007-06-14</option>
+  						<option value="http://www.infzm.com/enews/infzm/76">2007-06-07</option>
+  						<option value="http://www.infzm.com/enews/infzm/179">2007-05-31</option>
+  						<option value="http://www.infzm.com/enews/infzm/159">2007-05-24</option>
+  						<option value="http://www.infzm.com/enews/infzm/90">2007-05-17</option>
+  						<option value="http://www.infzm.com/enews/infzm/24">2007-05-10</option>
+
+  						<option value="http://www.infzm.com/enews/infzm/127">2007-05-03</option>
+  						<option value="http://www.infzm.com/enews/infzm/93">2007-04-26</option>
+  						<option value="http://www.infzm.com/enews/infzm/70">2007-04-19</option>
+  						<option value="http://www.infzm.com/enews/infzm/103">2007-04-12</option>
+  						<option value="http://www.infzm.com/enews/infzm/141">2007-04-05</option>
+  						<option value="http://www.infzm.com/enews/infzm/122">2007-03-29</option>
+
+  						<option value="http://www.infzm.com/enews/infzm/139">2007-03-22</option>
+  						<option value="http://www.infzm.com/enews/infzm/28">2007-03-15</option>
+  						<option value="http://www.infzm.com/enews/infzm/152">2007-03-08</option>
+  						<option value="http://www.infzm.com/enews/infzm/115">2007-03-01</option>
+  						<option value="http://www.infzm.com/enews/infzm/86">2007-02-22</option>
+  						<option value="http://www.infzm.com/enews/infzm/161">2007-02-15</option>
+
+  						<option value="http://www.infzm.com/enews/infzm/108">2007-02-08</option>
+  						<option value="http://www.infzm.com/enews/infzm/124">2007-02-01</option>
+  						<option value="http://www.infzm.com/enews/infzm/174">2007-01-25</option>
+  						<option value="http://www.infzm.com/enews/infzm/52">2007-01-18</option>
+  						<option value="http://www.infzm.com/enews/infzm/43">2007-01-11</option>
+  						<option value="http://www.infzm.com/enews/infzm/119">2007-01-04</option>
