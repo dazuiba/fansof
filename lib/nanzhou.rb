@@ -55,8 +55,12 @@ class Journal
 	def parse!
 		do_request(URL_BASE+self.id.to_s)
 		self.headline = create_content(at(".topnews a"), :head, 0,at_text(".topnews .summary"))
-		raise if headline.nil?
-		self.parted_content = search(".side-2 h2").map{|e|parse_parts(e, PART[e.inner_text])}
+		raise if headline.nil?		
+		self.parted_content = search(".side-2 h2").map{|e|
+			part = PART[e.inner_text]
+			raise "#{e.inner_text} is not exist in #{PART.inspect}" if part.nil?
+			parse_parts(e, part)
+		}
 	end		
 	
 	def parse_parts(element, part)
